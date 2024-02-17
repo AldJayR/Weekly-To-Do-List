@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(3, 3, 58);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.to-do-box {
+  max-width: 600px; 
+  width: 90%;
+  background-color: rgb(10, 10, 156);
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.to-do-box h2 {
+  font-weight: 800;
+}
+
+hr {
+  border: 3px solid rgb(11, 11, 184);
+}
+
+.to-do-box ul {
+  margin: 0; 
+  padding-left: 0;
+}
+
+.to-do-box li:first-child {
+  font-weight: bold;
+}
+
+li {
+  margin-bottom: 10px;
+  list-style: none;
+}
